@@ -12,7 +12,7 @@ Benchmark in tokens/sec
 | Distill BERT SQuAD |         462 |                   61 |               107 |  605      |          |
 
 ## Installation
-
+| Name        | Version |
 |  ---------- | ----- |
 |  Jetpack    |  4.4  |
 |OnnxRuntime  |  1.3  |
