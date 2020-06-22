@@ -3,6 +3,8 @@ NLP in NVIDIA Jetson Platform
 
 ## Benchmarks
 
+Benchmark in tokens/sec
+
 ### Jetson Nano
 
 |                    | Pytorch-GPU | Pytorch-CPU(4 cores) | onnx-CPU (1 core) | onnx-CUDA | onnx-TRT |
