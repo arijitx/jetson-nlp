@@ -1,6 +1,14 @@
 # Jetson NLP
 NLP in NVIDIA Jetson Platform
 
+## Benchmarks
+
+### Jetson Nano
+
+|                    | Pytorch-GPU | Pytorch-CPU(4 cores) | onnx-CPU (1 core) | onnx-CUDA | onnx-TRT |
+|--------------------|-------------|----------------------|-------------------|-----------|----------|
+| Distill BERT SQuAD |         462 |                   61 |                39 |           |          |
+
 ## Installation
 
    
@@ -103,10 +111,4 @@ Run benchmark.py
 
     https://gist.github.com/arijitx/1400d3d4e07fc517d6c5bfea506c2353
 
-## Benchmarks
 
-### Jetson Nano
-
-|                    | Pytorch-GPU | Pytorch-CPU(4 cores) | onnx-CPU (1 core) | onnx-CUDA | onnx-TRT |
-|--------------------|-------------|----------------------|-------------------|-----------|----------|
-| Distill BERT SQuAD |         462 |                   61 |                39 |           |          |
