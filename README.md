@@ -13,7 +13,9 @@ Benchmark in tokens/sec
 
 ## Installation
 
-   
+|  Jetpack    |  4.4  |
+|OnnxRuntime  |  1.3  |
+
 ### 1. Hugginface Transformers Installation
 
 https://gist.github.com/arijitx/c20379394852242a2fa03f76b9ee4e4f<br>
