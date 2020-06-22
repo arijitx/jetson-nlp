@@ -13,6 +13,7 @@ Benchmark in tokens/sec
 
 ## Installation
 
+|  ---------- | ----- |
 |  Jetpack    |  4.4  |
 |OnnxRuntime  |  1.3  |
 
