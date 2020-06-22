@@ -66,7 +66,7 @@ https://github.com/microsoft/onnxruntime/blob/master/BUILD.md#TensorRT<br>
 
 ONNX Runtime v1.2.0 or higher requires TensorRT 7 support, at this moment, the compatible TensorRT and CUDA libraries in JetPack 4.4 is still under developer preview stage. Therefore, we suggest using ONNX Runtime v1.1.2 with JetPack 4.3 which has been validated.
     
-    git clone --single-branch --recursive --branch v1.1.2 https://github.com/Microsoft/onnxruntime
+    git clone --recursive  https://github.com/Microsoft/onnxruntime
  
 Indicate CUDA compiler. It's optional, cmake can automatically find the correct cuda.
   
