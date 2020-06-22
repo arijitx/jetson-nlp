@@ -87,6 +87,9 @@ Build onnxruntime with --use_tensorrt flag
 
     ./build.sh --config Release --update --build --build_wheel --use_tensorrt --cuda_home /usr/local/cuda --cudnn_home /usr/lib/aarch64-linux-gnu --tensorrt_home /usr/lib/aarch64-linux-gnu
  
+Install the whl
+
+      /onnxruntime/build/Linux/Release/dist$ pip3 install onnxruntime_gpu_tensorrt-1.3.1-cp36-cp36m-linux_aarch64.whl
  
 See instructions for additional information and tips.
 ### 3. Convert huggin face model to Onnx
