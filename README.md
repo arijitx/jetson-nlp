@@ -116,4 +116,7 @@ Run benchmark.py
 
     https://gist.github.com/arijitx/1400d3d4e07fc517d6c5bfea506c2353
 
+Convert your onnx model to do shape infered tensorRT model<br>
+https://github.com/microsoft/onnxruntime/blob/master/docs/execution_providers/TensorRT-ExecutionProvider.md#shape-inference-for-tensorrt-subgraphs
 
+    python3 /home/arijitx/onnxruntime/onnxruntime/core/providers/nuphar/scripts/symbolic_shape_infer.py --input dbert_squad.onnx --output dbert_squad_trt.onnx
