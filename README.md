@@ -7,9 +7,9 @@ Benchmark in tokens/sec
 
 ### Jetson Nano
 
-|                    | Pytorch-GPU | Pytorch-CPU(4 cores) | onnx-CPU (1 core) | onnx-CUDA | onnx-TRT |
+|                    | Pytorch-GPU | Pytorch-CPU(4 cores) | onnx-CPU (4 core) | onnx-CUDA | onnx-TRT |
 |--------------------|-------------|----------------------|-------------------|-----------|----------|
-| Distill BERT SQuAD |         462 |                   61 |                39 |           |          |
+| Distill BERT SQuAD |         462 |                   61 |               107 |  605      |          |
 
 ## Installation
 
